@@ -1,0 +1,88 @@
+nav{
+    display: flex;
+}
+.makeMytrip_logo{
+    margin-left: 200px;
+}
+hr{
+    margin-top:10px;
+}
+.logo{
+    border-radius:10px ;
+    margin-top: 3px;
+    height:30px;
+}
+.p_1{
+    color:red;
+}
+.p1{
+    text-align: left;
+    margin-top: 5px;
+font-size:x-small;
+color: white;
+font-weight: bold;
+}
+.p2{
+    text-align: left;
+    font-size: xx-small;
+}
+
+.item_1 {
+    display: flex;
+    margin-left:150px
+
+}
+.item_2 {
+    display: flex;
+    margin-left: 10px;
+
+}
+.item_3 {
+    display: flex;
+    margin-left: 10px;
+
+}
+.item_4{
+    display: flex;
+    margin-left: 10px; 
+    background:linear-gradient(90deg,blue,white);
+   border-radius: 5px;
+   border: none; 
+   width: 220px;
+   margin-top: 2px;
+   text-align: center;
+}
+.item_5 p{
+    margin-right: 0px;
+    margin-top: 10px;
+    color: white;
+    font-size: xx-small;
+}
+.item_5{
+    background-color:rgba(0,0,0,0.1) ;
+    margin-left: 10px; 
+    display: flex;
+    border-radius: 5px;
+    width:160px;
+}
+.text_1{
+    display: flex;
+}
+.item_4 p{
+    color: white;
+    margin-top:10px ;
+   font-size: xx-small;
+   margin-left: 8px; 
+}
+a{
+    text-decoration: none;
+}
+.dropdown_login{
+    border:none;
+    margin-left:15px ;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}

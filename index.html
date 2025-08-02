@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="introducemybiz.css">
+    <title>MakeMyTrip</title>
+  </head>
+  <body>
+    <main>
+      <div class="main_1">
+        <nav >
+          <img class="logo makeMytrip_logo" src="images/Logo.png" alt="Make my trip">
+          <div class="item_1">
+            <img class="logo" src="images/House.png"> 
+            <div class="text">
+              <a href="Destinations.html" target="_blank"><p class="p1 p_1">List your Property</p></a>
+              <p class="p2">Start earning today!</p>
+            </div>
+          </div>
+          <div class="item_2">
+            <img class="logo" src="images/biz.png"> 
+            <div class="text">
+              <p class="p1 ">Introducing myBiz</p>
+              <p class="p2">Business Travel Solution</p>
+            </div>
+          </div>
+          <div class="item_3">
+            <img class="logo" src="images/bag.png"> 
+            <div class="text">
+              <p class="p1">My Trips</p>
+              <p class="p2">Manage your bookings</p>
+            </div>
+          </div>
+          <div class="item_4">
+            <img class="logo" src="images/my.png"> 
+            <div class="text_1">
+              <p>Login or Create Account</p>
+              <img src="/images/arrow.png" alt="" class="dropdown_login" id="login-or-create-account">
+            </div>
+              </div>
+          <div class="item_5">
+            <img class="logo" src="images/flag.jpeg"> 
+            <div class="text_1">
+              <p class="p1">IN | ENG | INR</p>
+              <img src="/images/arrow.png" alt="" class="dropdown_login" id="language-select">
+            </div>
+          </div>
+        </nav>
+        <hr>
+        <div class="container"> 
+        <div class="upper-div">
+            <div class="upper-selector">
+                <img src="images/hindi_logo.png" height="30px" alt="">
+                <select name="" id="country" class="dropdown">
+                  <option value="Hindi">IND</option>
+                  <option value="Hindi">UAE</option>
+                  <option value="Hindi">USA</option>
+                </select>
+              </div>
+        </div>
+          <br />
+          <p class="lang">Select Language</p>
+          <p class="curr">Select Currency</p>
+          <div class="bttn">
+            <div class="language_bttn">
+              <input class="circle" type="radio" />English<br />
+              <input class="circle" type="radio" />Hindi<br />
+              <input class="circle" type="radio" />Punjabi<br />
+              <input class="circle" type="radio" />Haryanvi<br />
+            </div>
+            <div class="Currency_bttn">
+              <input type="radio" class="circle"/>
+              INR<br />
+            </div>
+          </div>
+    
+            <button type="submit" class="submit_bttn">Apply</button>
+          
+        </div>
+            <div class="container_3">
+              <div class="first">
+                  <input type="radio" id="btn" name="trip_pattern" checked >One Way
+                  <input type="radio" id="btn" name="trip_pattern">Round Trip
+                  <input type="radio" id="btn" name="trip_pattern">Multi City
+                  <p class="trip_pattern" >Book International and Domestic Flights</p> 
+              </div>
+              <div class="second">
+                <div class="second_item S_item_1">
+                  <p class="second_text S_text_1">From</p>
+                  <div class="from">
+                  <h2 class="second_text" id="from">Delhi</h2>
+                  <p class="second_text" id="from" style="overflow: hidden;">DEL, Delhi Airport India</p>
+                </div>              
+              </div>
+              <div class="icon-arrow">
+                <img src="images/double side arrows.png" alt="arrow" id="double-side-arrows-icon">
+              </div>
+                <div class="second_item S_item_2">
+                  <p class="second_text S_text_1">To</p>
+                  <div class="to">
+                  <h2 class="second_text" id="to">Bengaluru</h2>
+                  <p class="second_text"  id="to">BLR, Bengaluru International Airport India</p>
+                </div>
+                </div>
+                <div class="second_item S_item_3">
+                  <p class="second_text S_text_1">Departure</p>
+                  <h2 class="second_text">22 Aug'24</h2>
+                  <p class="second_text">Thursday</p>
+                </div>
+                <div class="second_item S_item_4">
+                  <p class="second_text S_text_1">Return</p>
+                  <p class="second_text">Tap to add a return <br> date for bigger <br> discounts</p>
+                </div>
+                <div class="second_item S_item_5">
+                  <p class="second_text S_text_1">Traveller & Class</p>
+                  <h2 class="second_text">1 Traveller</h2>
+                  <p class="second_text">Economy/Premium Economy</p>
+                </div>
+              </div>
+              <div class="third">
+                <div class="third_item_1 third_item" >
+                  <p class="third_item_1_text_1">Select a special fare</p>
+                  <p class="third_item_1_text_2">EXTRA SAVINGS</p>
+                </div>
+                  <div class="third_item_2 third_item">
+                      <input type="radio" id="btn" name="offers" checked><b>Regular</b>
+                      <p class="third_text2" name="offers">Regular fares</p>
+                  </div>
+                  <div class="third_item_2 third_item" title="Applicable only for students above br 12 years of age.Valid student ID cards and student visas(Where applicable) are required to avail this.">
+                      <input type="radio" id="btn" name="offers"><b>Student</b>
+                      <p class="third_text2">Extra discounts/baggage</p>
+                  </div>
+                  <div class="third_item_2 third_item">
+                      <input type="radio" id="btn" name="offers"><b>Senior Citizen</b>
+                      <p class="third_text2">up to ₹600 off</p>
+                  </div>
+                  <div class="third_item_2 third_item">
+                      <input type="radio" id="btn" name="offers"><b>Armed Forces</b>
+                      <p class="third_text2">up to ₹600 off</p>
+                  </div>
+                  <div class="third_item_2 third_item">
+                      <input type="radio" id="btn" name="offers"><b>Doctor and Nurses</b>
+                      <p class="third_text2">up to ₹600 off</p>
+                  </div>
+           </div>
+           <div class="container2">
+            <div class="Logo">
+                <img src="images/plane.png">
+                <p class="text">Flights</p>
+            </div>
+            <div class="Logo">
+                <img src="images/hotel.png">
+                <p class="text">Hotels</p>
+            </div>
+            <div class="Logo">
+                <img src="images/home.png">
+                <p class="text">Homestays<br> & villas</p>
+            </div>
+            <div class="Logo">
+                <img src="images/umberella.png">
+                <p class="text">Holiday<br> Packages</p>
+            </div>
+            <div class="Logo">
+                <img src="images/train.png">
+                <p class="text">Trains</p>
+            </div>
+            <div class="Logo">
+                <img src="images/bus.png">
+                <p class="text">Buses</p>
+            </div>
+            <div class="Logo">
+                <img src="images/car.png">
+                <p class="text">Cabs</p>
+            </div>
+            <div class="Logo">
+                <img src="images/symbol.png">
+                <p class="text">Forex Card<br> & Currency</p>
+            </div>
+           </div>
+        <div class="search">
+          <button type="submit">SEARCH</button>
+        </div>
+      </div>
+      <div class="main_2">
+        <div class="lowertext">
+          <div class="lowertext_text">
+            <h5>PRODUCT OFFERING</h5>
+            <P>Flights, International Flights, Charter Flights, Hotels, International Hotels, Homestays and Villas, Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for Corporate Travel, Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book Flights From US, Book Flights From UAE, Trip Planner, Forex Card, Buy Foreign Currency, Gift Cards, Gift, Wedding Gift, Anniversary Gift, Birthday Gift, Diwali Gift, Valentines Gift, Farewell Gift, Christmas Gift, New Year Gift, Trip Money, Trip Ideas, Travel Blog, PNR Status, MakeMyTrip Advertising Solutions, One Way Cab</P>
+          </div>
+          <div class="lowertext_text">
+            <h5>About the Site</h5>
+            <p>Customer Support, Payment Security, Privacy Policy, Cookie Policy, User Agreement, Terms of Service, Franchise Offices, Make A Payment, Work From Home, Escalation Channel, Report Security Issues</p>
+          </div>
+          <div class="lowertext_text">
+            <h5>Top Hotels in India</h5>
+            <p>Fairmont Jaipur, St Regis Goa, Six Senses Fort Barwara, W Goa, Grand Hyatt Goa, Shangri-La Bangalore, The St Regis Mumbai, Taj Rishikesh, Grand Hyatt Mumbai, Le Meridien Delhi, Rambagh Palace Jaipur, Leela Palace Chennai, The Leela Palace Udaipur, Taj Lake Palace Udaipur, Jw Marriott Chandigarh, Alila Diwa Goa, Le Meridien Goa, Taj Lands End Mumbai, Itc Grand Chola Chennai, Itc Maratha Mumbai, Oberoi Udaivilas, Jai Mahal Palace Jaipur, Taj Mahal Tower Mumbai, Marriott Suites Pune, Park Hyatt Chennai, The Leela Palace Jaipur, Jw Marriott Mumbai Sahar, Jw Marriott Mumbai Juhu, The Ritz Carlton Bengaluru, The Oberoi New Delhi, Taj Resort & Convention Centre Goa, Taj Bengal Kolkata, Taj Coromandel Chennai, The Oberoi Gurgaon, The Westin Goa, Jw Marriott Hotel Pune, The Leela Palace New Delhi, Taj West End Bengaluru, The Taj Mahal Palace Mumbai, Best Hotels in India</p>
+          </div>
+          <div class="lowertext_text">
+            <h5>Book Hotels in India from Top Destinations</h5>
+            <p>Hotels in Jaipur, Hotels in Goa, Hotels in Delhi, Hotels in Udaipur, Hotels in Gurgaon, Hotels in Mumbai, Hotels in Bangalore, Hotels in Rishikesh, Hotels in Agra, Hotels in Chennai, Hotels in Kasauli, Hotels in Kolkata, Hotels in Pune, Hotels in Manali, Hotels in Lonavala, Hotels in Shimla, Hotels in Munnar, Hotels in Ayodhya, Hotels in Gulmarg, Hotels in Leh, Hotels in Hyderabad</p>
+          </div>
+          <div class="lowertext_text">
+            <h5>Top International hotels</h5>
+            <p>Adaaran Club Rannalhi, Marina Bay Sands Singapore, Coco Bodu Hithi, Taj Dubai, Atlantis Hotel Dubai, Amari Phuket, Jw Marriott Dubai, Armani Hotel Dubai, Grand Hyatt Dubai, Saii Lagoon Maldives, Gevora Hotel Dubai, Hyatt Regency Dubai, Pan Pacific Singapore, The Palm Dubai, Caesars Palace, Baiyoke Sky Hotel, Centara Pattaya Hotel, Embudu Village, Orchard Hotel Singapore, Reethi Beach Resort, Ambassador Hotel Bangkok, Dusit Thani Pattaya, Shangri La Singapore, Sunbeam Hotel Pattaya, Taj Samudra Colombo, Bangkok Palace Hotel, Hilton Pattaya, Novotel Phuket Resort, Taj Exotica Resort Maldives, Village Hotel Bugis, Avani Atrium Bangkok, The Plaza New York, Village Hotel Albert Court, Amari Pattaya</p>
+          </div>
+          <div class="lowertext_text">
+            <h5>Quick Links</h5>
+            <p>Delhi Chennai Flights, Delhi Mumbai Flights, Delhi Goa Flights, Chennai Mumbai flights, Mumbai Hyderabad flights, Kolkata to Rupsi Flights, Rupsi to Guwahati Flights, Pasighat to Guwahati Flights, Delhi to Khajuraho Flights, Cochin to Agatti Island Flights, Hotels in Delhi, Hotels in Mumbai, Hotels In Goa, Hotels In Jaipur, Hotels In Ooty, Hotels In Udaipur, Hotels in Puri, Hotels In North Goa, Hotels In Rishikesh, Honeymoon Packages, Kerala Packages, Kashmir Packages, Ladakh Packages, Goa Packages, Thailand Packages, Sri Lanka Visa, Thailand Visa, Explore Goa, Explore Manali, Explore Shimla, Explore Jaipur, Explore Srinagar</p>
+          </div>
+          <div class="lowertext_text">
+            <h5>Important Links</h5>
+            <p>Cheap Flights, Flight Status, Kumbh Mela, Domestic Airlines, International Airlines, Indigo, Spicejet, GoAir, Air Asia, Air India, Indian Railways, Trip Ideas, Beaches, Honeymoon Destinations, Romantic Destinations, Popular Destinations, Resorts In Udaipur, Resorts In Munnar, Villas In Lonavala, Hotels in Thailand, Villas In Goa, Domestic Flight Offers, International Flight Offers, UAE Flight Offers, USA, UAE, Saudi Arabia, UK, Oman</p>
+          </div>
+          <div class="lowertext_text">
+            <h5>Corporate Travel</h5>
+            <p>Corporate Travel, Corporate Hotel Booking, Corporate Flight Booking, Business Travel for SME, GST Invoice for International flights, Business Travel Solutions, GST Invoice for Bus, Corporate Bus booking, myBiz - Best Business Travel Platform, GST Invoice for Flights, GST Invoice for Corporate Travel, GST Invoice for Hotels, myBiz for Small Business, Free cancellation on International Flights</p>
+          </div>
+    
+        </div>
+        <div class="before_footer">
+          <div class="before_footer_text">
+            <h3>Why MakeMyTrip?</h3>
+            <p>Established in 2000, MakeMyTrip has since positioned itself as one of the leading companies, providing great offers, competitive airfares, exclusive discounts, and a seamless online booking experience to many of its customers. The experience of booking your flight tickets, hotel stay, and holiday package through our desktop site or mobile app can be done with complete ease and no hassles at all. We also deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram, MyWallet, and many more while updating them from time to time to better suit our customers’ evolving needs and demands.</p>
+          </div>
+          <div class="before_footer_text">
+            <h3>Booking Flights with MakeMyTrip</h3>
+            <p>At MakeMyTrip, you can find the best of deals and cheap air tickets to any place you want by booking your tickets on our website or app. Being India’s leading website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight tickets that are affordable and customized to your convenience. With customer satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to our customer’s queries and concerns. Serving over 5 million happy customers, we at MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to find air tickets. You can get a hold of the cheapest flight of your choice today while also enjoying the other available options for your travel needs with us.</p>
+          </div>
+          <div class="before_footer_text">
+            <h3>Domestic Flights with MakeMyTrip</h3>
+            <p>MakeMyTrip is India's leading player for flight bookings. With the cheapest fare guarantee, experience great value at the lowest price. Instant notifications ensure current flight status, instant fare drops, amazing discounts, instant refunds and rebook options, price comparisons and many more interesting features.</p>
+          </div>
+        </div>
+        <footer>
+        <img src="images/twitter.png" alt="" loading="lazy">
+        <p>© 2024 MAKEMYTRIP PVT. LTD. <br> Country India USA UAE</p>
+      </footer>
+      </div>
+</main>
+<script src="index.js"></script>
+<script src="from-to.js"></script>
+<script src="introducemybiz.js"></script>
+</body>
+</html>
